@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { PageResult } from "@/typings";
 import Link from "next/link";
 
@@ -55,7 +56,7 @@ function ResultsList({results, term} : Props) {
                             </div>
 
                             <h3 className="font-extralight">
-                                Showing results for "{decodeURIComponent(term)}"
+                                Showing results for "{decodeURIComponent(term || "")}"
                             </h3>
                         </div>
 
