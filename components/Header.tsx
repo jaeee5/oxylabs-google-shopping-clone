@@ -136,7 +136,11 @@ function Header() {
                 className="hidden lg:flex flex-1 justify-end"
             >
                 {/* Avatar */}
-                <Avatar name="Jason Elechi" round size="50" />
+                <Link
+                    href={"https://github.com/jaeee5/oxylabs-google-shopping-clone"}
+                >
+                    <Avatar name="Jason Elechi" round size="50" />
+                </Link>
             </div>
         </header>
     )
